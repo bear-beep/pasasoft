@@ -3,5 +3,5 @@
 module.exports = components;
 
 function components() {
-  return 'components lib';
+  return 'components lib version';
 }

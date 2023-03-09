@@ -3,5 +3,5 @@
 module.exports = utils;
 
 function utils() {
-  return 'utils lib';
+  return 'utils lib version';
 }

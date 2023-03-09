@@ -3,5 +3,5 @@
 module.exports = editor;
 
 function editor() {
-  return 'editor lib version';
+  return 'editor publist text';
 }

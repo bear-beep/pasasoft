@@ -34,7 +34,7 @@ lerna link dependency
 
 ## Update a dependency
 
-lerna version bumo version
+lerna version 
 
 lerna changed
 

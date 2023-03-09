@@ -3,5 +3,5 @@
 module.exports = editor;
 
 function editor() {
-  return 'Hello from editor';
+  return 'editor lib';
 }

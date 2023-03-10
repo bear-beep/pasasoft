@@ -1,11 +1,11 @@
-# `editor`
+# `model`
 
 > TODO: description
 
 ## Usage
 
 ```
-const editor = require('editor');
+const model = require('model');
 
 // TODO: DEMONSTRATE API
 ```

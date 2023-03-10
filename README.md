@@ -1,43 +1,33 @@
 # Pasasoft
 
-## Quick start
+## Create a library
 
-npm i lerna -g
+lerna create components
 
-## Dependency analysis
+## Add a dependencies
 
-npx nx graph
+lerna add typescript --dev
 
-## Install dependency
+lerna add @types/slate --scope=@pasa-design/editor --dev
 
-lerna bootstarp
+## Install dependencies
 
-## Checkout dependency update history
+lern bootstarp
 
-lerna changed
+## Genarate *.d.ts files
 
-## View dependency diff
+lerna run tsc
 
-lerna diff
+## Publish npm library
 
-## View common dependency
-
-lerna ls
-
-## Add a dependency
-
-lerna create <package>
-
-lerna add dependency
-
-lerna link dependency
-
-## Update a dependency
-
-lerna version 
+lerna run build
 
 lerna changed
 
-lerna diff
+lerna version
 
 lerna publish
+
+## Origanization npm library
+
+npm publish --access public

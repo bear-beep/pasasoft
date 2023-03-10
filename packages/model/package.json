@@ -1,6 +1,6 @@
 {
   "name": "@pasa-soft/model",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "chenyuwen <yuwen.chen@pasasoft.com>",
   "homepage": "https://github.com/bear-beep/pasasoft#readme",
@@ -28,7 +28,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@pasa-soft/utils": "^1.0.0",
+    "@pasa-soft/utils": "^1.0.1",
     "utils": "^0.3.1"
   }
 }

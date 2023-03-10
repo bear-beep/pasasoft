@@ -1,5 +1,5 @@
 declare class ContactController {
-    getContact(): void;
+    getContact(): any;
     getContacts(): void;
     deleteContact(): void;
     createContact(): void;

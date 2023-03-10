@@ -31,3 +31,5 @@ lerna publish
 ## Origanization npm library
 
 npm publish --access public
+
+## View dependencies map

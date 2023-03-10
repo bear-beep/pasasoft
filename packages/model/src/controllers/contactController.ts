@@ -3,9 +3,12 @@ import fileService from "../services/fileService";
 import noteService from "../services/noteService";
 import photoService from "../services/photoService";
 import taskService from "../services/taskService";
+import { add } from "@pasa-soft/utils";
 
 class ContactController {
-    public getContact() {}
+    public getContact() {
+        return add()
+    }
 
     public getContacts() {}
 

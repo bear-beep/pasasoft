@@ -1,7 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const utils_1 = require("@pasa-soft/utils");
 class ContactController {
-    getContact() { }
+    getContact() {
+        return (0, utils_1.add)();
+    }
     getContacts() { }
     deleteContact() { }
     createContact() { }

@@ -21,6 +21,9 @@
     "test": "node ./__tests__/model.test.js",
     "tsc": "tsc"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/bear-beep/pasasoft/issues"
   },
@@ -30,5 +33,6 @@
   "dependencies": {
     "@pasa-soft/utils": "^1.0.1",
     "utils": "^0.3.1"
-  }
+  },
+  "gitHead": "1a247b30e9209f95a53d64b6a3add14db3aaf220"
 }

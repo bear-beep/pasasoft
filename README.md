@@ -20,13 +20,15 @@ lerna run tsc
 
 ## Publish npm library
 
-lerna run build
+lib workflow
+
+git workflow
 
 lerna changed
 
 lerna version
 
-lerna publish
+lerna publish --no-private
 
 ## Origanization npm library
 

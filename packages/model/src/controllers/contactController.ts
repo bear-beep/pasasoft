@@ -7,7 +7,7 @@ import { add } from "@pasa-soft/utils";
 
 class ContactController {
     public getContact() {
-        return add()
+        return Number(add()) * 2
     }
 
     public getContacts() {}

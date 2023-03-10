@@ -21,7 +21,11 @@
     "test": "node ./__tests__/utils.test.js",
     "tsc": "tsc"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/bear-beep/pasasoft/issues"
-  }
+  },
+  "gitHead": "1a247b30e9209f95a53d64b6a3add14db3aaf220"
 }
